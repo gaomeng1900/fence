@@ -1,4 +1,4 @@
-class Fence {
+export class Fence {
 	/**
 	 * task list
 	 */
