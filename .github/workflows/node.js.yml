@@ -29,3 +29,5 @@ jobs:
     - run: npm i
     - run: npm run build
     - run: git add es5.js && git add index.es2020.js && git add index.d.ts
+    - run: git commit -m "ci build"
+    - run: git run push
