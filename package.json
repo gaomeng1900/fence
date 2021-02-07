@@ -1,7 +1,7 @@
 {
   "name": "fence-sync",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "index.es2020.js",
   "types": "index.d.ts",
   "author": "西萌",
   "description": "Fence sync model for promise programming.",
