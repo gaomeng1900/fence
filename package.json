@@ -6,7 +6,7 @@
   "author": "西萌",
   "description": "Fence sync model for promise programming.",
   "scripts": {
-		"build": "npx tsc index.ts --outFile index.es2020.js --target es2020 && npx tsc index.ts --outFile index.es2020.js -d"
+		"build": "npx tsc index.ts --target es2020 && mv index.js index.es2020.js && npx tsc index.ts -d && mv index.js es5.js"
 	},
   "devDependencies": {
 		"typescript": "4.1.2"
