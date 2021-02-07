@@ -5,4 +5,10 @@
   "types": "index.d.ts",
   "author": "西萌",
   "description": "Fence sync model for promise programming.",
+  "scripts": {
+		"build": "npx tsc index.ts --outFile index.es2020.js --target es2020 && npx tsc index.ts --outFile index.es2020.js -d"
+	},
+  "devDependencies": {
+		"typescript": "4.0.3"
+	},
 }
